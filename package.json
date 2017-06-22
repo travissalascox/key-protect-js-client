@@ -1,0 +1,39 @@
+{
+  "name": "key-protect-js-client",
+  "version": "1.0.0",
+  "description": "A javascript/node.js client written in Typescript for IBM Key Protect",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travissalascox/key-protect-js-client.git"
+  },
+  "keywords": [
+    "key",
+    "management",
+    "ibm",
+    "typescript",
+    "key",
+    "protect"
+  ],
+  "author": "Travis Salas Cox",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/travissalascox/key-protect-js-client/issues"
+  },
+  "homepage": "https://github.com/travissalascox/key-protect-js-client#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.52",
+    "jasmine": "^2.6.0",
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "@types/request": "0.0.44",
+    "@types/request-promise-native": "^1.0.5",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  }
+}

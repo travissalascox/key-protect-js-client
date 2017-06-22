@@ -1,0 +1,49 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "rules": {
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "no-eval": true,
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "no-duplicate-variable": true,
+        "no-trailing-whitespace": true,
+        "no-unsafe-finally": true,
+        "variable-name": [
+            true,
+            "ban-keywords"
+        ],
+        "no-console": [
+            true
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-module",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ],
+        "triple-equals": [
+            true,
+            "allow-null-check",
+            "allow-undefined-check"
+        ],
+        "switch-default": true,
+        "no-unused-variable": true,
+        "curly": true
+    }
+}
